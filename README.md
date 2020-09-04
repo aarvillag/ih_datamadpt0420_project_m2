@@ -8,6 +8,7 @@
 
 # 3. ONE-LINER: 
 #### With this project analysis the reader is going to get a very good idea about how the main features are impacting on price and the correlations between each others. You can visualize many charts in order to capture a large amount of data all at once in a clear and concise manner.
+#### Then we will do an statistics analysis to compare prices with a specific value and on the other hand, compare prices of subsets between each others.
 
 # 4. TECHNOLOGY STACK: 
 
@@ -18,6 +19,7 @@
         - Seaborn
         - Cufflinks
         - Plotly Express
+        - Scipy.stats
         
    - Also we are going to use **TABLEAU** to generate a dashboard to present with interactive charts
 
@@ -56,6 +58,7 @@
     ├── .gitignore
     ├── README.md
     ├── notebooks
+        ├── DiamondHipothesysTest.ipynb
     │   └── DiamondNotebook.ipynb
     └── data
 ```
